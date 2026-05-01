@@ -28,8 +28,10 @@ Platform Engineering Code Assessment
    user exists or not. What would you change or what would you tell me in a
    code review? How would you test it?:
 
+```python
 def func(testme):
     list = User.objects.all()   
     for z in list:        
         if z.user_name == testme:            
             return true
+```
